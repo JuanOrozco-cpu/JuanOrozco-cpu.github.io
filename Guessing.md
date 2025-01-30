@@ -12,7 +12,7 @@ Start([Start]) -->     A[Ask user if he wants to play a random number guessing g
     I --> J(If you wanna play again just reload the page)
 End([End])
 ```
-Description of process
+Description of process:
 The user opens the page and get asked for input to see if he wants to play
 if the user says no the program ends but if he says yes then the program generates a random number from 1 - 20
 then the program asks the user to type a number from 1 - 20
