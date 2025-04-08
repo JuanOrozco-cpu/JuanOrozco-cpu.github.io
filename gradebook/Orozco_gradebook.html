@@ -2,9 +2,21 @@
 <html lang="en">
 <head> 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gradebook</title>
     <style>
+    table{
+        width: 100%
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solud #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f4f4f4;
+    }
     </style>
 
 
@@ -13,10 +25,7 @@
     <h1>Gradebook</h1>
     <table id="gradebook">
     </table>
-
-<script src="gradebook.js"></script>
-
-
+    <script src="gradebook.js"></script>
 
 </body>
 </html>
