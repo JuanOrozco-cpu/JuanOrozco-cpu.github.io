@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 router.get('/', function(req, res){
     // It just returns a file to their browser 
     // from the same directory it's in, called gradebook.html
-    res.sendFile(path.join(__dirname, 'gradebook.html'));
+    res.sendFile(path.join(__dirname, 'Orozco_gradebook.html'));
 });
 
 app.use("/", router);
